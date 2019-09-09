@@ -117,7 +117,7 @@
 			<div class="footer-area">
 				<p>
 					© Copyright 2018
-					<a href="https://colorlib.com/wp/">xabertum</a>
+					<a href="">xabertum</a>
 					.
 				</p>
 			</div>
