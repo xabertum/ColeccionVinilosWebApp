@@ -117,8 +117,7 @@
 			<div class="footer-area">
 				<p>
 					© Copyright 2018
-					<a href="">xabertum</a>
-					.
+					<a href="">xabertum</a>					
 				</p>
 			</div>
 		</footer>
