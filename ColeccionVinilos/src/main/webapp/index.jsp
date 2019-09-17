@@ -61,7 +61,7 @@
 					<nav>
 						<ul class="metismenu" id="menu">
 							<li class="active">
-								<a href="index.html">
+								<a href="index.jsp">
 									<i class="fa fa-home"></i>
 									<span>Inicio</span>
 								</a>
