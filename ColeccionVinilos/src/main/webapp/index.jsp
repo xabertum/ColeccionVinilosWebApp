@@ -48,7 +48,7 @@
 			<div class="sidebar-header">
 				<div class="logo">
 					<a href="index.html">
-						<img src="assets/images/icon/logo.png" alt="logo">
+						<img src="assets/images/icon/logo_discogs.png" alt="logo">
 					</a>
 				</div>
 				<br>
