@@ -62,7 +62,7 @@
 		<div class="sidebar-menu">
 			<div class="sidebar-header">
 				<div class="logo">
-					<a href="index.jsp"> <img
+					<a href="../index.jsp"> <img
 						src="<%out.print(getServletContext().getContextPath()); %>/assets/images/icon/logo_discogs.png"
 						alt="logo">
 					</a>
@@ -76,7 +76,7 @@
 				<div class="menu-inner">
 					<nav>
 						<ul class="metismenu" id="menu">
-							<li class="active"><a href="index.jsp"> <i
+							<li class="active"><a href="../index.jsp"> <i
 									class="fa fa-home"></i> <span>Inicio</span>
 							</a></li>
 							<li><a href="javascript:void(0)"> <i class="fa fa-tag"></i>

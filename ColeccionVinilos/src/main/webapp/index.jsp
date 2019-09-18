@@ -83,10 +83,9 @@
 									<span>Mantenimientos</span>
 							</a>
 								<ul class="collapse">
-									<li><a href=""> <i class="fa fa-cubes"></i> Categorias
+									<li><a href=""> <i class="fa fa-cubes"></i><span>Categorias</span>
 									</a></li>
-									<li><a href=""> <i class="fa fa-archive"></i>
-											Productos
+									<li><a href=""> <i class="fa fa-archive"></i><span>Productos</span>
 									</a></li>
 								</ul></li>
 						</ul>
