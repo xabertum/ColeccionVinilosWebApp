@@ -62,7 +62,7 @@
 		<div class="sidebar-menu">
 			<div class="sidebar-header">
 				<div class="logo">
-					<a href="index.html"> <img
+					<a href="index.jsp"> <img
 						src="<%out.print(getServletContext().getContextPath()); %>/assets/images/icon/logo_discogs.png"
 						alt="logo">
 					</a>
