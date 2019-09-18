@@ -75,13 +75,13 @@
 									<li>
 										<a href="">
 											<i class="fa fa-cubes"></i>
-											Categorias
+											<span>Categorias</span>
 										</a>
 									</li>
 									<li>
 										<a href="">
 											<i class="fa fa-archive"></i>
-											Productos
+											<span>Productos</span>
 										</a>
 									</li>
 								</ul>
