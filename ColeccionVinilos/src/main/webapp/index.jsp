@@ -83,7 +83,7 @@
 									<span>Mantenimientos</span>
 							</a>
 								<ul class="collapse">
-									<li><a href=""> <i class="fa fa-cubes"></i><span>Categorias</span>
+									<li><a href="<%out.print(getServletContext().getContextPath()); %>/js_app/categoria.jsp"> <i class="fa fa-cubes"></i><span>Categorias</span>
 									</a></li>
 									<li><a href=""> <i class="fa fa-archive"></i><span>Productos</span>
 									</a></li>
