@@ -11,6 +11,14 @@
 .padding-top {
 	padding-top: 30px;
 }
+
+.fa.fa-search.padding-right {
+	padding-right: 7px;
+}
+
+#width-th {
+	width: 15%;
+}
 /***************************/
 
 .error-validation{
