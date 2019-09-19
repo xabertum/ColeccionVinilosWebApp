@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -171,7 +170,7 @@
 		<footer>
 			<div class="footer-area">
 				<p>
-					© Copyright 2018 <a href="">xabertum</a>
+					© Copyright 2019 - <a href="https://github.com/xabertum">xabertum</a>
 				</p>
 			</div>
 		</footer>
