@@ -141,6 +141,24 @@
 									</div>
 								</div>
 								
+								<div class="row">
+									<div class="col-md-3 col-12">
+										<select class="form form-control-sm" id="sizePageCategoria" name="sizePageCategoria">
+											<option value="10">10</option>
+											<option value="15">15</option>
+											<option value="20">20</option>
+										</select>
+									</div>
+									<div class="col-md-9 col-12">
+										<nav>
+											<ul id ="paginationCategoria" class="pagination pagination-sm justify-content-end">
+												
+											
+											</ul>
+										</nav>
+									</div>
+								</div>
+								
 							</div>
 						</div>
 
