@@ -47,7 +47,7 @@
 		<div class="sidebar-menu">
 			<div class="sidebar-header">
 				<div class="logo">
-					<a href="index.jsp"> <img
+					<a href="../index.jsp"> <img
 						src="<%out.print(getServletContext().getContextPath()); %>/assets/images/icon/logo_discogs.png" alt="logo">
 					</a>
 				</div>
@@ -60,15 +60,14 @@
 				<div class="menu-inner">
 					<nav>
 						<ul class="metismenu" id="menu">
-							<li class="active"><a href="index.jsp"> <i class="fa fa-home"></i> <span>Inicio</span>
+							<li class="active"><a href="../index.jsp"> <i class="fa fa-home"></i> <span>Inicio</span>
 							</a></li>
 							<li><a href="javascript:void(0)"> <i class="fa fa-tag"></i> <span>Mantenimientos</span>
 							</a>
 								<ul class="collapse">
-									<li><a href="<%out.print(getServletContext().getContextPath()); %>/jsp_app/categoria.jsp"> <i
-											class="fa fa-cubes"></i><span>Categorias</span>
+									<li><a href=""> <i class="fa fa-cubes"></i> <span>Categorias</span>
 									</a></li>
-									<li><a href=""> <i class="fa fa-archive"></i><span>Productos</span>
+									<li><a href=""> <i class="fa fa-archive"></i> <span>Productos</span>
 									</a></li>
 								</ul></li>
 						</ul>
@@ -97,14 +96,81 @@
 				</div>
 			</div>
 			<!-- header area end -->
-			<div class="main-content-inner"></div>
+			<div class="main-content-inner">
+				<div class="row padding-top">
+					<div class="col-12">
+						<div class="card">
+							<div class="card-body">
+								<h6>CATEGORIAS:</h6>
+
+								<form action="" id="formCategoria">
+									<div class="row mt-3">
+										<div class="form-group col-sm-9 col-12">
+											<input type="text" id="txtNombreCategoria" name="txtNombreCategoria" class="form-control form-control-sm"
+												placeholder="NOMBRE">
+										</div>
+										<div class="col-sm-3 col-12">
+											<button type="submit" id="btnBuscarCategoria" class="btn btn-primary btn-xs">
+												<i class="fa fa-search padding-right" aria-hidden="true"></i>BUSCAR
+											</button>
+											<button type="button" id="btnAnadirCategoria" class="btn btn-primary btn-xs">
+												<i class="fa fa-plus-square padding-right" aria-hidden="true"></i>
+											</button>
+										</div>
+
+									</div>
+								</form>
+								<div class="row">
+									<div class="col-12">
+										<div class="table-responsive">
+											<table class="table table-hover table-bordered">
+												<thead class="bg-primary">
+													<tr class="text-white">
+														<th>NOMBRE</th>
+														<th id="width-th">ACCIONES</th>
+													</tr>
+												</thead>
+												<tbody id="tbodyCategoria">
+
+												</tbody>
+
+											</table>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-md-1 col-12">
+										<select class="form form-control-sm" id="sizePageCategoria" name="sizePageCategoria">
+											<option value="10">10</option>
+											<option value="15">15</option>
+											<option value="20">20</option>
+										</select>
+									</div>
+									<div class="col-md-11 col-12">
+										<nav>
+											<ul id="paginationCategoria" class="pagination pagination-sm justify-content-end">
+
+											</ul>
+										</nav>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
 		</div>
 		<!-- main content area end -->
 		<!-- footer area start-->
 		<footer>
 			<div class="footer-area">
 				<p>
-					© Copyright 2018 <a href="">xabertum</a>
+					© Copyright 2019 - <a href="https://github.com/xabertum">xabertum</a>
 				</p>
 			</div>
 		</footer>

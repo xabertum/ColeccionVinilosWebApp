@@ -1,3 +1,25 @@
+/***** CUSTOM CSS **********/
+
+.fa-sign-out:before {
+	padding-left: 5px;
+}
+
+.fa-cubes {
+	width: 15px;
+}
+
+.padding-top {
+	padding-top: 30px;
+}
+
+.fa.fa-search.padding-right {
+	padding-right: 7px;
+}
+
+#width-th {
+	width: 15%;
+}
+/***************************/
 
 .error-validation{
     background: rgba(221, 14, 32, 1);
